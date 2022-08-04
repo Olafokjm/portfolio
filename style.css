@@ -204,7 +204,8 @@ ul{
     margin-bottom: 30px;
     justify-content: center;
     align-items: center;
-    width: 300px;
+    min-width: 300px;
+    max-width: 300px;
     filter: opacity(.5)
 }
 
