@@ -1,0 +1,135 @@
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <!--CSS-->
+        <link rel="stylesheet" href="style.css">
+        
+        <title>Kevin's Portfolio</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <!--Profile picture-->
+                <div class="profile-img rotate-vert-center">
+                    <div class="img-border">
+                        <img src="img/Profile1.jpg" alt="Foto_perfil">
+                    </div>
+                </div>
+                <!--Profile information-->
+                <div class="profile-data">
+                    <h1>Kevin Julio Muñoz</h1>
+                    <h2>Front - End developer</h2>
+                </div>
+                <!--contact links-->
+                <div class="profile-nav">
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/in/kevinjm1987/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Olafokjm" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <!--about me-->
+                <div class="profile-text">
+                    <p>Nacido en la ciudad de Cartagena (Colombia) siendo desde entonces una persona con un gran sentido de la curiosad y con muchos deseos de conocer el funcionamiento de las cosas.</p>
+                    <p>Me considero una persona que se encuentra en constante aprendizaje, la cual quedó enamorada de esta hermosa labor no hace mucho tiempo pero dispuesto a expandir sus conocimientos y experiencias con cada elemento del código escrito.</p>
+                    <p>Actualmente elaboro sitios web estáticos y dinámicos totalmente responsive y desde cero, usando principalmente tecnologías como HTML, CSS, SASS, Bootstrap, JS y un poco de PHP, esperando obtener muchos más conocimientos que me lleven a elaborar un mejor producto.</p>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <!--choose buttons-->
+                <div class="switch">
+                    <button class="projects" onclick="hide2()">Projects</button>
+                    <button class="skills" onclick="hide1()">Skills</button>
+                </div>
+                <!--Projects information-->
+                <div id="info1" class="frame row">
+                    <div class="col screenshot">
+                        <a href="https://olafokjm.github.io/curriculum/"><img src="img/Proyecto1.jpg" alt="Proyecto1"></a>
+                        <h3>HTML - CSS</h3>
+                    </div>
+                    <div class="col screenshot">
+                        <a href="https://olafokjm.github.io/tech_sales/"><img src="img/Proyecto2.jpg" alt="Proyecto2"></a>
+                        <h3>HTML - Bootstrap</h3>
+                    </div>
+                    <div class="col screenshot">
+                        <a href="https://olafokjm.github.io/cafeteria/"><img src="img/Proyecto3.jpg" alt="Proyecto3"></a>
+                        <h3>HTML - CSS - JQuery</h3>
+                    </div>
+                </div>
+                <!--Skills information-->
+                <div id="info2" class="frame row">
+                    <div class="Front-end col">
+                        <h2>Front-end</h2>
+                        <ul>
+                            <li>
+                                <i class="fa-brands fa-html5"></i>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%</div>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-css3-alt"></i>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">60%</div>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-sass"></i>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 50%">50%</div>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-bootstrap"></i>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%">25%</div>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-js-square"></i>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 15%">15%</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="Back-end col">
+                        <h2>Back-end</h2>
+                        <ul>
+                            <li>
+                                <i class="fa-brands fa-php"></i>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">20%</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="software col">
+                        <h2>Software Skills</h2>
+                        <ul>
+                            <li>
+                                <i class="fa-brands fa-git-alt"></i>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 15%">15%</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <span>2022 - Created by Kevin julio</span>
+        </footer>
+        <!--function hide-->
+        <script src="hide.js"></script>
+        <!--icons (fontawesome.com)-->
+        <script src="https://kit.fontawesome.com/96b9f7210e.js" crossorigin="anonymous"></script>
+    </body>
+</html>
